@@ -10,6 +10,4 @@ const RootStack = createStackNavigator(
     }
 );
 
-const AppContainer = createAppContainer(RootStack);
-
-export default AppContainer;
+export default AppContainer = createAppContainer(RootStack);
